@@ -4,6 +4,7 @@
 
 - langage compilé --> c++, java
 
+### Nodemon
 https://www.npmjs.com/package/nodemon
 npm i -D nodemon
 
@@ -12,3 +13,7 @@ npm i -D nodemon
     "start": "nodemon index.js"
 },
 
+### export import de fonctions
+- Commone JS (Par defaut dans node)
+
+- ES6+ (Utilisé dans le navigateur)
