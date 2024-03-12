@@ -18,3 +18,4 @@ npm i -D nodemon
 - ES6+ (Utilisé dans le navigateur)
 
 Callback => fonction placé en parametre d'uen autre
+
