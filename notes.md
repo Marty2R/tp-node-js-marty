@@ -15,5 +15,6 @@ npm i -D nodemon
 
 ### export import de fonctions
 - Commone JS (Par defaut dans node)
-
 - ES6+ (Utilisé dans le navigateur)
+
+Callback => fonction placé en parametre d'uen autre
