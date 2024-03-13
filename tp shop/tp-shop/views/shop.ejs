@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Market-Place</title>
+</head>
+<body>
+
+    <%- include('includes/header'); %>
+
+    <h1>Welcome to Shop page ! </h1>    
+    <section>  
+        <% for (let i = 0; i < db.length; i++ ) { %>
+            <div class="card">
+                <img src="<%= db[i].img %>" alt="<%= db[i].alt %>">
+                <h2><%= db[i].object %></h2>
+                <h2 class="price">€ <%= db[i].price %></h2>
+                <p><%= db[i].desc %></p>
+                <a class="btn" href="/panier">Buy now !</a>
+            </div>
+        <% } %>
+    </section>  
+    <a style="margin: 50px;" class="btn" href="/panier">Mon panier</a>  
+</body>
+</html>
