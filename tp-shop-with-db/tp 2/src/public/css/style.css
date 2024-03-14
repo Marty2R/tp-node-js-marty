@@ -1,0 +1,71 @@
+header {
+    padding: 20px;
+    border-bottom: solid 2px rgb(154, 3, 3);
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+header nav a:hover {
+    color: white;
+    background-color: rgb(154, 3, 3);
+    border-radius: 5px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 80PX auto;
+    color: rgb(154, 3, 3);
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.card {
+    border-radius: 5px;
+    width: 270px;
+    text-align: center;
+    gap: 2;
+    border: solid gray 1px;
+}
+
+.card img {
+    width: 270px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.card h2 {
+    font-size: 1.2rem;
+}
+
+.card p {
+    font-size: 0.7rem;
+}
+
+.price {
+    color: rgb(154, 3, 3);
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: rgb(154, 3, 3);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    display: block;
+}
